@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    color: red;
+}
+.box{
+    border: 0.5px solid grey;
+}
+.last{
+    padding-left: 160px;
+}
+tbody,tr,td.button{
+    text-align: center;
+}
+table{
+    margin-left: 10px;
+    border-radius: 2px;
+}
+h6{
+    font-weight: bold;
+}
+.fa{
+    color:orange;
+}
+.tbody,tr:hover{
+    background-color:orange;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+

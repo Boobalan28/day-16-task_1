@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="box">
+    <div class="container-fluid">
+      <div class="col-sm-4 col-md-12 col-lg-12">
+        <h6>Name<span>*</span></h6>
+        <input type="text" required> <input type="text" required>
+        <p>first<span class="last" style="color: black; margin-left: 20px;">last</span></p>
+        <h6>Email<span>*</span></h6>
+        <input type="email" required style="width:40%;">
+        <br>
+        <br>
+        <h6>Your Experiance<span>*</span></h6>
+        <i class="fa fa-star fa-1x"></i>
+        <i class="fa fa-star fa-1x"></i>
+        <i class="fa fa-star fa-1x"></i>
+        <i class="fa fa-star fa-1x"></i>
+        <i class="fa fa-star fa-1x"></i>
+        <br><br>
+        <p>Overall how whould you rate your Experiance with us?</p>
+        <br>
+        <h6>How satisfied are you with<span>*</span></h6>
+        <br>
+        <div class="table-responsive">
+        <table class="table" >
+          <thead>
+            <tr>
+              <td scope="col"></td>
+              <td scope="col">Very Unsatisfied</td>
+              <td scope="col">Unsatisfied</td>
+              <td scope="col">Neutral</td>
+              <td scope="col">satisfied</td>
+              <td scope="col">Very satisfied</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Purchase</td>
+              <td><input type="radio" id="button" name="Very Unsatisfied" value="1"></td>
+              <td><input type="radio" id="button" name="Unsatisfied" value="2"></td>
+              <td><input type="radio" id="button" name="Neutral" value="3"></td>
+              <td><input type="radio" id="button" name="satisfied" value="4"></td>
+              <td><input type="radio" id="button" name="Very satisfied" value="5"></td>
+            </tr>
+            <tr>
+              <td>Service</td>
+              <td><input type="radio" id="button" name="Very Unsatisfied" value="1"></td>
+              <td><input type="radio" id="button" name="Unsatisfied" value="2"></td>
+              <td><input type="radio" id="button" name="Neutral" value="3"></td>
+              <td><input type="radio" id="button" name="satisfied" value="4"></td>
+              <td><input type="radio" id="button" name="Very satisfied" value="5"></td>
+            </tr>
+            <tr>
+              <td>Company over all</td>
+              <td><input type="radio" id="button" name="Very Unsatisfied" value="1"></td>
+              <td><input type="radio" id="button" name="Unsatisfied" value="2"></td>
+              <td><input type="radio" id="button" name="Neutral" value="3"></td>
+              <td><input type="radio" id="button" name="satisfied" value="4"></td>
+              <td><input type="radio" id="button" name="Very satisfied" value="5"></td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h6>How likely are you to with<span>*</span></h6>
+        <br>
+        <table class="table">
+          <thead>
+            <tr>
+              <td scope="col"></td>
+              <td scope="col">Very Unlikely</td>
+              <td scope="col">Unlikely</td>
+              <td scope="col">Neutral</td>
+              <td scope="col">Likely</td>
+              <td scope="col">Very likely</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Buy from us again</td>
+              <td><input type="radio" id="button" name="Very Unlikely" value="1"></td>
+              <td><input type="radio" id="button" name="Unlikely" value="2"></td>
+              <td><input type="radio" id="button" name="Neutral" value="3"></td>
+              <td><input type="radio" id="button" name="likely" value="4"></td>
+              <td><input type="radio" id="button" name="Very likely" value="5"></td>
+            </tr>
+            <tr>
+              <td>Recommend our <br>product to others</td>
+              <td><input type="radio" id="button" name="Very Unlikely" value="1"></td>
+              <td><input type="radio" id="button" name="Unlikely" value="2"></td>
+              <td><input type="radio" id="button" name="Neutral" value="3"></td>
+              <td><input type="radio" id="button" name="likely" value="4"></td>
+              <td><input type="radio" id="button" name="Very likely" value="5"></td>
+            </tr>
+            <tr>
+              <td>Recommend our <br>company to others</td>
+              <td><input type="radio" id="button" name="Very Unlikely" value="1"></td>
+              <td><input type="radio" id="button" name="Unlikely" value="2"></td>
+              <td><input type="radio" id="button" name="Neutral" value="3"></td>
+              <td><input type="radio" id="button" name="likely" value="4"></td>
+              <td><input type="radio" id="button" name="Very likely" value="5"></td>
+            </tr>
+          </tbody>
+        </table><br>
+        <h6>How likely are you to with</h6>
+        <textarea id="text" cols="50" rows="5" style="width: 100%;" placeholder="Comment"></textarea>
+        <button type="submit" class="btn btn-primary" style="margin-left: 10px;">Submit</button>
+      </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
